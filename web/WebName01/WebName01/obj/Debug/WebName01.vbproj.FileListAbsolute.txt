@@ -1,0 +1,9 @@
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\bin\WebName01.dll.config
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\bin\WebName01.dll
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\bin\WebName01.pdb
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\bin\WebName01.xml
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\obj\Debug\WebName01.Resources.resources
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\obj\Debug\WebName01.vbproj.GenerateResource.Cache
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\obj\Debug\WebName01.dll
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\obj\Debug\WebName01.xml
+H:\java\VS\workspaces\test0723\web\WebName01\WebName01\obj\Debug\WebName01.pdb
