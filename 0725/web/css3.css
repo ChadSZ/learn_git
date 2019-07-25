@@ -1,0 +1,21 @@
+input{
+    border:solid;
+    color: hotpink;
+    border-color: green;
+    background-color: khaki;
+    width: 100%;
+    /* display: inherit; */
+    cursor: pointer;
+} 
+.a1{
+    color: greenyellow;
+    border-spacing:20px;
+    border-color: blueviolet;
+    margin:50px;
+    border:40px;
+    width: 50%;
+}
+#a2{
+    background-color: darkviolet;
+    height: 200px;
+}
