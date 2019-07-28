@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function Person(name,age){
+            this.name = name;
+            this.age = age;
+            this.sayHello = function(){
+                alert("你好，我是"+this.name+",我"+this.age+"岁");
+            }
+        }
+        var p1 = new Person("张三",14);
+        p1.sayHello();
+    </script>
+</head>
+<body>
+    <input type="button" id="btn1" value="请点击" onclick="sayHello()"/>
+</body>
+</html>
