@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>123456789</title>
+    <script type="text/javascript">
+        // function confirmdemo(){
+        //     if(confirm("是否继续")){
+        //         window.alert("已继续");
+        //     }else{
+        //         window.alert("已取消");
+        //     }
+        //     setInterval(alert("haha"),5000);
+        // }
+        
+        var time;
+        var time2;
+        function leftscroll(){
+            var title = document.title;
+            var first = title.charAt(0);
+            var second = title.substring(1,title.length);
+            document.title = second + first;
+        }
+        function ok(){
+            time = setInterval("leftscroll()",500);
+        }
+        function rightscroll(){
+            var title = document.title;
+            var first = title.charAt(8);
+            var second = title.substring(0,title.length-1);
+            document.title = first+ second; //first 和second的顺序！！！
+        }
+        function ok2(){
+            time2 = setInterval("rightscroll()",500);
+        }
+        function cancel(){
+            clearInterval(time);
+            clearInterval(time2);
+        }
+        function btn1(){
+            var t1 = document.getElementById("text1");
+            alert(t1.value);
+        }
+        function btn2(){
+            var t2 = document.getElementById("text2");
+            alert(form1.t2.value);
+        }
+        function btn3(){
+            var in1 = document.getElementsByName("sex");
+            for(var i=0;i<in1.length;i++){
+                // in1[i].value = "一键赋值~~~";
+                if(i%2==0){
+                    in1[i].style.background = "red";
+                }else{
+                    in1[i].style.background = "yellow";
+                }
+            }
+        }
+    </script>
+</head>
+<body onmousedown=confirmdemo()>
+    <div>
+        <input type="text" id = "text1"/>
+        <input type="button" onclick="btn1()" value = "1"/>
+
+        <form action="1.aspx" id = "form1">
+            <input type="text" value = "3" id = "text2"/>
+            <input type="button" value ="4" onclick="btn2()"/>
+        </form>
+
+        <br/>
+        <input type="button" value = "一键求圆面积" onclick="btn()"/>
+        <input type="button" value = "左转" onclick="ok()"/>
+        <input type="button" value = "右转" onclick="ok2()"/>
+        <input type="button" value = "停止" onclick="cancel()"/>
+        <br/>
+        <input type="text" value="男" name="sex"/>
+        <input type="text" value="男" name="sex"/>
+        <br/>
+        <input type="text" value="女" name="sex"/>        
+        <input type="text" value="女" name="sex"/>
+        <br/>
+        <input type="text" value="隐私" name="sex"/>
+        <input type="text" value="隐私" name="sex"/>
+        <br/>
+        <input type="button" onclick="btn3()" value="click"/>
+    </div>
+</body>
+</html>
