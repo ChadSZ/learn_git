@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Android="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hello Android Studio"
+        android:gravity="center"
+        android:background="#4CAF50"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/bt01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="bt01" />
+
+        <Button
+            android:id="@+id/bt02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+
+            android:text="bt02" />
+    <Button
+        android:id="@+id/bt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bt03" />
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent">
+<TextView
+    android:background="#da0202"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="Hello World!" />
+<TextView
+    android:background="#1aab95"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="Hello World!" />
+<TextView
+    android:background="#1f1f99"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="Hello World!" />
+<TextView
+    android:background="#121010"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="Hello World!" />
+<Button
+    android:id="@+id/bt01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="bt01"
+    />
+</LinearLayout>-->
